@@ -1,0 +1,88 @@
+
+.navbar{
+  z-index: 4;
+}
+
+
+.nav-link:hover{
+    color: rgb(230, 4, 173) !important;
+    border-bottom: 2px solid blue;
+}
+
+
+
+/* banner style */
+.banner {
+    background: linear-gradient(to bottom, rgb(243, 240, 240), cyan);
+    width: 100%;
+    /* padding: 2em 0; */
+    max-height: 80vh;
+    overflow: hidden;
+
+  }
+  .row {
+    align-items: center;
+  }
+  h1 {
+    text-shadow: 1px 1px 2px #7c7c7c;
+  }
+  .btn {
+    padding: 0.5em 1.5em;
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px rgba(105, 73, 73, 0.15);
+  }
+
+ .banner-img{
+    overflow: hidden;
+ } 
+
+  @media screen and (max-width: 567px) {
+    .banner {
+      text-align: center;
+    }
+
+    .banner-img>img{
+        width: 70%;
+        height: 500px;
+      }
+
+
+    
+  }
+
+  .custom-doc-card{
+    width: 14rem;
+  }
+ 
+  .img-wrapper>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+  }
+
+.banner-part{
+  padding-top: 5rem !important;
+}
+
+
+.dropdown-menu>li{
+  background-color: rgb(13, 202, 240);
+  
+}
+.dropdown-menu>li:hover{
+  background-color: rgb(133, 248, 248);
+  
+}
+
+
+/* spinner when loading doctor */
+#spinner{
+  display: none;
+}
+
+#nodata{
+  display: none;
+}
+
+
+
